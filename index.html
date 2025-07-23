@@ -6,16 +6,29 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🍽️ متتبع السعرات</h1>
-  <form id="meal-form">
-    <input type="text" id="meal-name" placeholder="اسم الوجبة" required />
-    <input type="number" id="meal-calories" placeholder="عدد السعرات" required />
-    <button type="submit">➕ أضف الوجبة</button>
-  </form>
+  <header>
+    <h1>🔥 متتبع السعرات 🔥</h1>
+    <p>سجّل وجباتك وتابع كم باقي لك من السعرات اليوم</p>
+  </header>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="runner.png" alt="شخص يجري ويتابع سعراته" width="250">
+</div>
+  <main>
+    <form id="meal-form">
+      <input type="text" id="meal-name" placeholder="اسم الوجبة 🍽️" required />
+      <input type="number" id="meal-calories" placeholder="السعرات الحرارية 🔥" required />
+      <button type="submit">➕ أضف الوجبة</button>
+    </form>
 
-  <ul id="meal-list"></ul>
+    <section id="meal-list">
+      <h3>🍔 الوجبات المسجلة:</h3>
+      <ul id="meals"></ul>
+    </section>
 
-  <h3>السعرات المتبقية: <span id="remaining">2000</span></h3>
+    <section id="remaining-section">
+      <h3>🔥 المتبقي من السعرات: <span id="remaining">2000</span> سعرة</h3>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
