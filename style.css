@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}

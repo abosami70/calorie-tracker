@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>متتبع السعرات</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🍽️ متتبع السعرات</h1>
+  <form id="meal-form">
+    <input type="text" id="meal-name" placeholder="اسم الوجبة" required />
+    <input type="number" id="meal-calories" placeholder="عدد السعرات" required />
+    <button type="submit">➕ أضف الوجبة</button>
+  </form>
+
+  <ul id="meal-list"></ul>
+
+  <h3>السعرات المتبقية: <span id="remaining">2000</span></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
